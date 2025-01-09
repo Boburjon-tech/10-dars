@@ -1,0 +1,211 @@
+.web__descard {
+}
+
+.web__descard__container {
+    background-color:#e7816b;
+    border-radius:15px;
+    background-image:url(../../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-size:70%;
+    background-position: top -400px right;
+    background-repeat: no-repeat;
+}
+
+.web__descard__content {
+    padding: 64px 191px 64px 190px;
+    text-align: center;
+}
+
+.web__descard__title {
+    color:#fff;
+    font-family: "Jost";
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+.web__descard__subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Jost";
+    font-weight: normal;
+    font-size: 16px;
+    color:#fff;
+}
+
+@media screen and (max-width:1000px) {
+    .web__descard__container {
+        background-size: 150%;
+        background-position: top -75px right;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .web__descard__container {
+        background-size: 210%;
+        background-position: top right;
+    }
+}
+
+
+
+.web__des__cards {
+    margin-top: 16rem;
+}
+
+.web__cards__container {
+    display: flex;
+    row-gap: 30px;
+    column-gap:25px;
+    flex-wrap: wrap;
+    
+}
+.webcard {
+}
+.web__card__img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:100%;
+    max-width: 350px;
+    height:320px;
+}
+.web__card__content {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 22px;
+    background-color:#fdf3f0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.web__card__title {
+    color:#E7816B;
+    font-family: "Jost";
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+}
+.web__card__subtitle {
+    max-width: 286px;
+    color:#333136;
+    font-family: "Jost";
+    font-size: 1.6rem;
+    line-height: 26px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .web__cards__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;justify-content: center;
+    }
+
+    .webcard {
+        display: flex;
+    }
+
+    .web__card__img {
+        max-width: 339px;
+        border-bottom-left-radius:15px;
+        border-top-right-radius:0px;
+    }
+    .web__card__content {
+        border-bottom-left-radius :0px;
+        border-top-right-radius:15px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px ) {
+    .webcard {
+        flex-direction: column;
+    }
+
+    .web__card__img {
+        max-width: 600px;
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+        border-bottom-right-radius:0px;
+    }
+
+    .web__card__content {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius:15px;
+    }
+}
+
+
+
+
+
+
+
+.design__cards {
+    margin-top: 16rem;
+}
+
+.desicn__card__container {
+    display: flex;
+    gap: 30px;
+}
+
+.designcard {
+    border-radius: 15px;
+}
+
+.designcard:nth-child(1) {
+    width: 100%;
+    max-width: 541px;
+    padding: 107px 67px;
+    background-image:url(../../images/home/desktop/image-app-design.jpg);
+   background-repeat: no-repeat;
+}
+
+.designcard:nth-child(2) {
+    width: 100%;
+    max-width: 541px;
+    padding: 107px 67px;
+    background-image:url(../../images/home/desktop/image-graphic-design.jpg);
+   background-repeat: no-repeat;
+
+   .design__card__title {
+    max-width: 361px;
+   }
+}
+
+.design_card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.design__card__title {
+    width:100%;
+    font-family: "Jost";
+    text-align: center;
+    color:#fff;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+.design__card__subtitle {
+    font-family: "Jost";
+    text-align: center;
+    color:#fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:1000px) {
+    .desicn__card__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .designcard {
+    }
+}

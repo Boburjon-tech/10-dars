@@ -1,380 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech book with responsive</title>
-    <link rel="stylesheet" href="./css/styles.min.css" />
-  </head>
-  <body class="text-preset-5">
-    <!-- Header -->
-    <header class="header">
-      <div class="header__logo container">
-        <img src="./images/logo.svg" alt="Site logo" width="193" height="36" />
-      </div>
-      <div class="header__hero">
-        <div class="header__hero__container container">
-          <div class="header__hero__content">
-            <h1 class="header__hero__title text-preset-1">
-              Join the ultimate tech book club
-            </h1>
-            <p class="header__hero__text text-preset-5">
-              Turn your reading time into learning time with fellow tech
-              enthusiasts. Get curated recommendations, join vibrant
-              discussions, and level up your skills one chapter at a time.
-            </p>
-            <a class="btn header__hero-btn text-preset-6" href="#"
-              ><span class="btn-text">REVIEW MEMBERSHIP OPTIONS</span></a
-            >
-          </div>
-          <picture>
-            <source
-              srcset="./images/image-hero-mobile.webp"
-              media="(max-width:375px)"
-            />
-            <source
-              srcset="./images/image-hero-tablet.webp"
-              media="(max-width:850px)"
-            />
-            <img
-              class="header__hero__image"
-              src="./images/image-hero-desktop.webp"
-              alt="People read books"
-            />
-          </picture>
-        </div>
-      </div>
-    </header>
-    <!-- Main -->
-    <main class="main">
-      <div class="second__container container">
-        <picture>
-          <source
-            srcset="./images/image-read-together-mobile.webp"
-            media="(max-width:375px)"
-          />
-          <source
-            srcset="./images/image-read-together-tablet.webp"
-            media="(max-width:850px)"
-          />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Website name</title>
+</head>
+<body>
+    <!-- Header start -->
+     <header class="header">
+        <div class="header__container container">
+            <img class="header__logo" src="./images/shared/desktop/logo-dark.png" alt="" width="202" height="27">
 
-          <img
-          
-            class="second__container__reading__img"
-            src="./images/image-read-together-desktop.webp"
-            alt=""
-          />
-        </picture>
-        <div class="second__container__cta">
-          <h2 class="second__container__title text-preset-2">
-            Read together, grow together
-          </h2>
-          <ul class="second__container__wrapper">
-            <li class="second__container__text text-preset-5">
-              Monthly curated tech reads selected by industry experts
-            </li>
-            <li class="second__container__text text-preset-5">
-              Virtual and in-person meetups for deep-dive discussions
-            </li>
-            <li class="second__container__text text-preset-5">
-              Early access to new tech book releases
-            </li>
-            <li class="second__container__text text-preset-5">
-              Author Q&A sessions with tech thought leaders
-            </li>
-          </ul>
+            <ul class="header__container__list">
+                <li class="header__container__item"><a href="#">our company</a></li>
+                <li class="header__container__item"><a href="#">locations</a></li>
+                <li class="header__container__item"><a href="#">contact</a></li>
+            </ul>
+            <a class="header__burger__menu" href="#"><img src="./images/Group.svg" alt=""></a>
         </div>
-      </div>
-      <section class="thirt__section">
-        <div class="thirt__section__container container">
-          <div>
-            <h2 class="thirt__section__title text-preset-2">
-              Not your average book
-              <span class="hero__word"
-                >club
-                <img
-                  class="circle-img"
-                  src="./images/pattern-circle.png"
-                  alt=""
-              /></span>
-            </h2>
-            <p class="thirt__section__text text-preset-5">
-              Connect with a community that speaks your language - from
-              <span class="bold-text text-preset-5-semibold">Python</span> to
-              <span class="bold-text text-preset-5-semibold">TypeScript</span>
-              and everything in between. Our discussions blend technical depth
-              with practical applications.
-            </p>
-          </div>
-          <picture>
-            <source
-              srcset="./images/image-not-average-mobile.webp"
-              media="(max-width:375px)"
-            />
-            <source
-              srcset="./images/image-not-average-tablet.webp"
-              media="(max-width:850px)"
-            />
-            <img
-              class="thirt__section__img"
-              src="./images/image-not-average-desktop.webp"
-              alt=""
-            />
-          </picture>
-          <img class="logos-tech-img" src="./images/logos-tech.svg" alt="" />
-        </div>
-      </section>
-      <section class="fourth__section">
-        <div class="fourth__section__container container">
-          <h2 class="fourth__section__title">
-            Your tech <br />
-            reading journey
-          </h2>
-          <div class="fourth__section__content">
-            <span class="fourth__section__text text-preset-6">
-              <img
-                class="fourth__section__text__img"
-                src="./images/first-step.png"
-                alt=""
-                width="40"
-                height="40"
-              />
-              <img
-                class="pattern-arrow-img"
-                src="./images/pattern-arrow.svg"
-                alt=""
-              />
-              Choose your membership tier
-            </span>
-            <span class="fourth__section__text text-preset-6">
-              <img
-                class="fourth__section__text__img"
-                src="./images/second-step.svg"
-                alt=""
-                width="40"
-                height="40"
-              />
-              <img
-                class="pattern-arrow-img"
-                src="./images/pattern-arrow.svg"
-                alt=""
-              />
-              Get your monthly book selection
-            </span>
-            <span class="fourth__section__text text-preset-6">
-              <img
-                class="fourth__section__text__img"
-                src="./images/third-step.svg"
-                alt=""
-                width="40"
-                height="40"
-              />
-              <img
-                class="pattern-arrow-img"
-                src="./images/pattern-arrow.svg"
-                alt=""
-              />
-              Join our discussion forums
-            </span>
-            <span class="fourth__section__text text-preset-6">
-              <img
-                class="fourth__section__text__img"
-                src="./images/fourth-step.svg"
-                alt=""
-                width="40"
-                height="40"
-              />
-              Attend exclusive meetups
-            </span>
-          </div>
-        </div>
-      </section>
-      <section class="five__section">
-        <div class="five__section__container container">
-          <h2 class="five__section__container__title text-preset-2">
-            Membership options
-          </h2>
-          <div class="five__section__container__cta">
-            <div class="five__section__container__wrapper">
-              <h3 class="five__section__container__item text-preset-4">
-                Starter
-              </h3>
-              <p class="five__section__text text-preset-5">
-                <span class="item-text text-preset-3">$19</span> /month
-              </p>
-              <hr class="main__divider" />
-              <div class="about">
-                <p class="five__section__text-r text-preset-5">1 book/month</p>
-                <p class="five__section__text-r text-preset-5">Online forums</p>
-              </div>
-              <a class="btn main__btn__first" href="#"
-                ><span class="btn-text-second text-preset-6"
-                  >SUBSCRIBE NOW</span
-                ></a
-              >
-            </div>
-            <div class="five__section__container__wrapper">
-              <h3 class="five__section__container__item text-preset-4">Pro</h3>
-              <p class="five__section__text text-preset-5">
-                <span class="item-text text-preset-3">$29</span> /month
-              </p>
-              <hr class="main__divider" />
-              <div class="about">
-                <p class="five__section__text-r text-preset-5">2 books/month</p>
-                <p class="five__section__text-r text-preset-5">
-                  Virtual meetups
-                </p>
-              </div>
 
-              <a class="btn main__btn__second" href="#"
-                ><span class="btn-text-second text-preset-6"
-                  >SUBSCRIBE NOW</span
-                ></a
-              >
-            </div>
-            <div class="five__section__container__wrapper">
-              <h3 class="five__section__container__item text-preset-4">
-                Enterprise
-              </h3>
-              <p class="five__section__text text-preset-5">
-                <span class="item-text text-preset-3">Custom</span>
-              </p>
-              <hr class="main__divider" />
-              <div class="about">
-                <p class="five__section__text-r text-preset-5">Team access</p>
-                <p class="five__section__text-r text-preset-5">
-                  Private sessions
-                </p>
-              </div>
+        
+     </header>
+    <!-- Header end -->
 
-              <a class="btn main__btn__thirt" href="#"
-                ><span class="btn-text-second text-preset-6"
-                  >TALK TO US</span
-                ></a
-              >
+    <!-- Main start -->
+     <main class="main">
+        <section class="header__hero container">
+            <div class="header__hero__container">
+                <div class="header__hero__content">
+                    <h1 class="header__hero__title">Award-winning custom designs and digital branding solutions</h1>
+                    <p class="header__hero__subtitle">With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
+
+                    <a class="header__hero__btn btn" href="#">Learn More</a>
+                </div>
+                <!-- <div class="header__image__content">
+                    <img class="header__hero__image" src="./images/home/desktop/image-hero-phone.png" alt="" >
+                </div> -->
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="sixth__section">
-        <div class="sixth__section__container container">
-          <div class="sixth__section__starts">
-            <span
-              ><img
-                class="sixth__section__starts__btn"
-                src="./images/icon-star.svg"
-                alt="stars" /></span
-            ><span
-              ><img
-                class="sixth__section__starts__btn"
-                src="./images/icon-star.svg"
-                alt="stars" /></span
-            ><span
-              ><img
-                class="sixth__section__starts__btn"
-                src="./images/icon-star.svg"
-                alt="stars" /></span
-            ><span
-              ><img
-                class="sixth__section__starts__btn"
-                src="./images/icon-star.svg"
-                alt="stars" /></span
-            ><span
-              ><img
-                class="sixth__section__starts__btn"
-                src="./images/icon-star.svg"
-                alt="stars"
-            /></span>
-          </div>
-          <h3 class="sixth__section__title text-preset-3">
-            "This book club transformed my technical reading from a solitary
-            activity into an enriching community experience. The discussions are
-            gold!"
-          </h3>
-          <p class="sixth__section__text text-preset-5">
-            Sarah Chen, Software Architect
-          </p>
-        </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer__cta__container container">
-        <h2 class="footer__cta__container__title text-preset-2">
-          Ready to debug your reading list?
-        </h2>
-        <a class="btn footer__btn" href="#"
-          ><span class="footer__btn__text text-preset-6"
-            >REVIEW MEMBERSHIP OPTIONS</span
-          ></a
-        >
-        <div class="footer__cta__members">
-          <img
-            src="./images/image-avatars.webp"
-            alt="Avatars"
-            width="110"
-            height="40"
-          />
-          <div class="footer__cta__members__wrapper">
-            <div class="footer__cta__members__stars">
-              <span
-                ><img
-                  class="header__hero__members__stars__btn"
-                  src="./images/icon-star.svg"
-                  alt="stars" /></span
-              ><span
-                ><img
-                  class="header__hero__members__stars__btn"
-                  src="./images/icon-star.svg"
-                  alt="stars" /></span
-              ><span
-                ><img
-                  class="header__hero__members__stars__btn"
-                  src="./images/icon-star.svg"
-                  alt="stars" /></span
-              ><span
-                ><img
-                  class="header__hero__members__stars__btn"
-                  src="./images/icon-star.svg"
-                  alt="stars" /></span
-              ><span
-                ><img
-                  class="header__hero__members__stars__btn"
-                  src="./images/icon-star.svg"
-                  alt="stars"
-              /></span>
+        </section>
+
+        <section class="projects ">
+            <div class="container">
+            <div class="projects__container ">
+                <ul class="projects__list">
+                    <li class="project__item">
+                        <div class="project__item__content">
+                        <h2 class="project__item__title">WEB DESIGN</h2>
+                        <a style="display: flex;" class="project__item__link" href="#" >VIEW PROJECTS     <p style="color: orange;">></p></a>
+                    </div>
+                    <picture class="web_tag__picture">
+                        <source srcset="./images/home/mobile/image-web-design.jpg" media="(max-width:600px )">
+                        <source srcset="./images/home/tablet/image-web-design.jpg" media="(max-width:1000px)">
+                        <img class="web_design_img" src="./images/home/desktop/image-web-design-large.jpg" alt="the photo">
+                    </picture>
+                    </li>
+                    <li class="project__item">
+                        <div  class="project__item__content">
+                        <h2 class="project__item__title">APP DESIGN</h2>
+                        <a style="display: flex;" class="project__item__link" href="#" >VIEW PROJECTS     <p style="color: orange;">></p></a>
+                    </div>
+                    <picture class="app_tag__picture">
+                        <source srcset="./images/home/mobile/image-app-design.jpg" media="(max-width:600px )">
+                        <source srcset="./images/home/tablet/image-app-design.jpg" media="(max-width:1000px)">
+                        <img class="app_design_img" src="./images/home/desktop/image-app-design.jpg" alt="the photo">
+                    </picture>
+                    </li>
+                    <li class="project__item">
+                        <div  class="project__item__content">
+                        <h2 class="project__item__title">GRAPHIC DESIGN</h2>
+                        <a style="display: flex;" class="project__item__link" href="#" >VIEW PROJECTS     <p style="color: orange;">></p></a>
+                    </div>
+                    <picture class="graphic_tag__picture">
+                        <source srcset="./images/home/mobile/image-graphic-design.jpg" media="(max-width:600px )">
+                        <source srcset="./images/home/tablet/image-graphic-design.jpg" media="(max-width:1000px)">
+                        <img class="graphic_design_img" src="./images/home/desktop/image-graphic-design.jpg" alt="the photo">
+                    </picture>
+                    </li>
+                </ul>
             </div>
-            <p class="header__hero__members__text text-preset-7">
-              200+ developers joined already
+        </div>
+        </section>
+
+        <section class="peace">
+            <div class="container">
+            <div class="peace__container"> 
+                <div class="one__peace">
+                    
+                    <img class="peace__image" src="./images/man_with_pen.svg" alt="" width="202" height="202">
+                    <div>
+                    <h3 class="peace__title">PASSIONATE</h3>
+                    <p class="peace__subtitle">Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+                </div>
+                </div>
+                
+                <div class="one__peace">
+                    <img class="peace__image" src="./images/woman_with_pen.svg" alt="" width="202" height="202">
+                    <div>
+                    <h3 class="peace__title">RESOURCEFUL</h3>
+                    <p class="peace__subtitle">Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p></div>
+                </div>
+                <div class="one__peace">
+                    <img class="peace__image" src="./images/man_and_woman.svg" alt="" width="202" height="202">
+                    <div>
+                    <h3 class="peace__title">FRIENDLY</h3>
+                    <p class="peace__subtitle"> We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p></div>
+                </div>
+            
+        </div>
+        </section>
+
+        <section class="your_prod">
+            <div class="container">
+                <div class="your_prod__container">
+                    <div class="your_prod__content">
+                        <h3 class="your_prod__title">Let’s talk about your project</h3>
+                        <p class="your_prod__subtitle">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+                    </div>
+                    <a class="your_prod__btn btn" href="#">Get in touch</a> 
+                </div>
+            </div>
+        </section>
+
+     </main>
+    <!-- Main end -->
+
+    <!-- Footer start -->
+     <footer class="footer">
+        <div class="container">
+        <div class="footer__container ">
+            <div class="look__header">
+                <img class="footer__logo" src="./images/shared/desktop/logo-light.png" alt="" width="202" height="27">
+                <hr   class="hidden__extra__line">
+                <ul  class="footer__list">
+                    <li class="footer__list__item"><a class="footer__list__link" href="#" >OUR COMPANY</a></li>
+                    <li class="footer__list__item"><a class="footer__list__link" href="#" >LOCATIONS</a></li>
+                    <li class="footer__list__item"><a class="footer__list__link" href="#" >CONTACT</a></li>
+                </ul>
+            </div>
+            <hr class="extrav__line">
+            <div class="under__extra__line">
+            <div class="footer__first__table">
+                <p class="footer__first__table__text">
+                Designo Central Office <br>
+                3886 Wellington Street <br>
+                Toronto, Ontario M9C 3J5
             </p>
-          </div>
+            </div>
+            <div class="footer__second__table">
+                <p class="footer__second__table__text">
+                    Contact Us (Central Office) <br>
+                    P : +1 253-863-8967 <br>
+                    M : contact@designo.co
+            </p>
+            </div>
+
+            <div class="links">
+                <ul class="link__list">
+                    <li class="link_item"><a class="link__address" href="#" ><img src="./images/shared/desktop/icon-facebook.svg" alt="the link"></a></li>
+                    <li class="link_item"><a class="link__address" href="#" ><img src="./images/shared/desktop/icon-youtube.svg" alt="the link"></a></li>
+                    <li class="link_item"><a class="link__address" href="#" ><img src="./images/shared/desktop/icon-twitter.svg" alt="the link"></a></li>
+                    <li class="link_item"><a class="link__address" href="#" ><img src="./images/shared/desktop/icon-pinterest.svg" alt="the link"></a></li>
+                    <li class="link_item"><a class="link__address" href="#" ><img src="./images/shared/desktop/icon-instagram.svg" alt="the link"></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <section class="site__footer">
-        <div class="site__footer__container container">
-          <p class="site__footer__text text-preset-7">
-            © 2024 – Tech Book Club
-          </p>
-          <ul class="socials">
-            <li class="socials__list">
-              <a class="socials__link" href="https://bsky.app" target="_blank"
-                ><img
-                  class="socials__img"
-                  src="./images/logo-bluesky.svg"
-                  alt="" /></a
-              ><a
-                class="socials__link"
-                href="https://www.linkedin.com"
-                target="_blank"
-                ><img
-                  class="socials__img"
-                  src="./images/logo-linkedin.svg"
-                  alt=""
-              /></a>
-            </li>
-          </ul>
         </div>
-      </section>
-    </footer>
-  </body>
+        </div>
+     </footer>
+    <!-- Footer end -->
+</body>
 </html>

@@ -1,0 +1,259 @@
+.your_prod {
+    margin-top: 16rem;
+}
+
+.your_prod__container {
+    background-image: url(../../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 70%;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: -79px;
+    z-index: 1;
+    background-color: #E7816B;
+    align-items: center;
+}
+.your_prod__content {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:72px 309px  72px 95px;
+}
+.your_prod__title {
+    max-width: 268px;
+    font-size: 40px;
+    font-family: "Jost";
+    font-weight: 500;
+    color:#fff;
+    line-height: 40px;
+}
+
+.your_prod__subtitle {
+    line-height: 26px;
+    max-width:459px;
+    font-size: 16px;
+    font-family: "Jost";
+    font-weight: 400;
+    color:#fff;
+}
+
+.your_prod__btn {
+    text-transform: uppercase;
+    width:100%;
+    max-width:152px;
+    text-align: center;
+    margin-right: 96px;
+}
+
+@media screen and (max-width:1000px) {
+
+    
+
+    .your_prod__container{
+        margin-bottom: -86px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: 100%;
+        background-position: top -40px right -80px;
+    }
+
+    .your_prod__content {
+       padding-right: 1px;
+       padding-left: 1px;
+        
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+ 
+
+    .your_prod__btn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 57px;
+        margin-right: 1px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .your_prod__container {
+        margin-bottom: -199px;
+        background-size: 200%;
+        background-position: top -50px right -300px;
+    }
+    
+    .your_prod {
+        
+        .container {
+            padding-left:24px;
+            padding-right: 24px;
+        }
+    }
+}
+
+
+
+.footer {
+    background-color: #1d1c1e;
+    z-index: -1;
+}
+
+.footer__container {
+    padding-top: 151px;
+   
+}
+.look__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.hidden__extra__line {
+}
+.footer__list {
+    display: flex;
+    
+    gap: 42px;
+}
+.footer__list__item {
+   
+}
+.footer__list__link {
+    color:#fff;
+    font-family: "Jost";
+}
+
+.hidden__extra__line {
+    display: none;
+}
+
+.extrav__line {
+    margin-bottom: 3.1rem;
+}
+.under__extra__line {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+    align-items: end;
+
+}
+.footer__first__table {
+max-width: 350px;
+    
+}
+.footer__first__table__text {
+    font-family: "Jost";
+    font-size: 16px;
+    opacity:0.5;
+    font-weight: normal;
+    color:#fff;
+}
+.footer__second__table {
+    max-width: 350px;
+    // margin-right: auto;
+}
+.footer__second__table__text {
+    color:#ffff;
+    opacity: 0.5;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: normal;
+
+}
+.links {
+    
+}
+.link__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.link_item {
+}
+.link__address {
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .footer__container {
+        padding-top: 166px;
+    }
+
+    .footer__first__table {
+        max-width: 223px;
+    }
+
+    .footer__second__table {
+        max-width: 223px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .footer__container {
+        padding-top: 253px;
+    }
+
+    .footer__logo {
+        margin-bottom: 3.2rem;
+    }
+
+    .hidden__extra__line {
+        display: flex;
+        color:#fff;
+        width:100%;
+        margin-bottom: 3.2rem;
+    }
+
+    .extrav__line {
+        display: none;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .under__extra__line {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+    .footer__first__table__text {
+        text-align: center;
+    }
+
+    .footer__second__table__text {
+        text-align: center;
+    }
+
+    .footer__second__table {
+        
+    }
+
+    .look__header {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+}

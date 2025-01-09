@@ -1,0 +1,75 @@
+// .about_us {
+// }
+
+.about_us__container {
+   
+    background-color: #E7816B;
+  
+    background-image:url(../../images/shared/desktop/bg-pattern-small-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top  right 300px;
+    border-radius: 15px;
+}
+.about_us__content {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 95px;
+}
+.about_us__title {
+    font-family: "Jost";
+    font-size: 4.8rem;
+    color:#fff;
+    font-weight: 500;
+}
+.about_us__subtitle {
+    font-family: "Jost";
+    font-size: 1.6rem;
+    color:#fff;
+    font-weight: 400;
+    max-width: 458px;
+    line-height: 26px;
+}
+
+.about_us__img {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 480px;
+}
+
+.plus__container {
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    gap: 10.2rem;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .plus__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_us__container {
+        flex-direction: column-reverse;
+        // align-items: center;
+    }
+
+    .about_us__content {
+        max-width: 689px;
+        padding-top: 1px;
+        padding-left: 1px;
+        text-align: center;
+       
+    }
+
+    .about_us__img {
+        max-width:689px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 15px;
+    }
+}

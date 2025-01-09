@@ -1,0 +1,31 @@
+@import "./vendors/normalize";
+
+
+@import "./_utils/variables";
+
+// Import Utilities
+@import "./_utils/functions";
+@import "./_utils/mixins";
+
+// Import Base Styles
+@import "./base/reset";
+@import "./base/typography";
+
+// Import Components
+@import "./components/buttons";
+
+// Import Layout
+@import "./layouts/header";
+@import "./layouts/footer";
+
+// Import Pages
+@import "./pages/index";
+
+// Import Vendors
+@import "./pages/web_design";
+
+@import "./pages/app_design";
+
+@import "./pages/graphic_design";
+
+@import "./pages/about";

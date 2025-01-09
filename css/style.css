@@ -436,7 +436,7 @@ main {
 }
 
 .header__hero__btn:hover {
-  background-color: grey;
+  background-color: #FFAD9B;
   color: #fff;
 }
 
@@ -464,6 +464,9 @@ main {
   display: none;
 }
 
+.header__container__item :hover {
+  color: grey;
+}
 .header__container__item a {
   font-family: "Jost";
   text-transform: uppercase;

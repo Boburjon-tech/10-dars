@@ -12,6 +12,13 @@
     width:100%;
     max-width:152px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+
+.header__hero__btn:hover {
+    background-color: grey;
+    color:#fff;
 }
 
 .your_prod__btn {

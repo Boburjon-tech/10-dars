@@ -46,6 +46,11 @@
     margin-right: 96px;
 }
 
+.your_prod__btn:hover {
+    background-color: grey;
+    color:#fff;
+}
+
 @media screen and (max-width:1000px) {
 
     
@@ -77,7 +82,11 @@
         display: flex;
         margin-bottom: 57px;
         margin-right: 1px;
+        
     }
+
+    
+
 }
 
 @media screen and (max-width:600px) {
@@ -122,11 +131,14 @@
     gap: 42px;
 }
 .footer__list__item {
-   
 }
 .footer__list__link {
     color:#fff;
     font-family: "Jost";
+}
+
+.footer__list__link:hover {
+    text-decoration: underline;
 }
 
 .hidden__extra__line {
@@ -177,6 +189,9 @@ max-width: 350px;
     gap:16px;
 }
 .link_item {
+    :hover {
+        opacity:0.5;
+    }
 }
 .link__address {
 }

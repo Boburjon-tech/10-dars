@@ -432,6 +432,12 @@ main {
   width: 100%;
   max-width: 152px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.header__hero__btn:hover {
+  background-color: grey;
+  color: #fff;
 }
 
 .your_prod__btn {
@@ -542,6 +548,11 @@ main {
   margin-right: 96px;
 }
 
+.your_prod__btn:hover {
+  background-color: grey;
+  color: #fff;
+}
+
 @media screen and (max-width: 1000px) {
   .your_prod__container {
     margin-bottom: -86px;
@@ -604,6 +615,10 @@ main {
   font-family: "Jost";
 }
 
+.footer__list__link:hover {
+  text-decoration: underline;
+}
+
 .hidden__extra__line {
   display: none;
 }
@@ -649,6 +664,10 @@ main {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+.link_item :hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1000px) {
@@ -847,6 +866,10 @@ main {
   align-items: center;
   color: #fff;
   gap: 30px;
+}
+
+.project__item__link:hover {
+  opacity: 0.5;
 }
 
 .project__item__content {

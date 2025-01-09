@@ -178,6 +178,10 @@ width: 100%;
     gap:30px;
 }
 
+.project__item__link:hover {
+    opacity:0.5;
+}
+
 .project__item__content {
     position: absolute;
     display: flex;
